@@ -1,0 +1,113 @@
+.forma{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 15px;
+}
+.imagenRedes:hover{
+    color: #191724;
+}
+.formaSobreLaInformacion{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    line-height: 34%;
+    letter-spacing: 10px;
+    margin-right: 15px;
+}
+.texto{
+    display: inline-flex;
+    align-items: center;
+    text-align: right;
+    vertical-align: middle;
+    margin-right: 25px; 
+    
+}
+.textoButton{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.textoButton:hover {
+    background-color: #191724;
+
+  }
+.textoButton img {
+    margin-right: 10px;
+  }
+.imagenRedes{
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: 20%;
+    border-radius: 25%;
+    background-size: 100% auto;
+    border-style: solid;
+}
+.imagenesInformacion{
+    height: 40px;
+    border-radius: 25;
+    text-indent: 40px;
+}
+.cuadro{    
+    padding: 10px 100px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color:rebeccapurple;
+    color: #000;
+}
+button{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding:5px 80px;
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.cuadroSobreMi{
+    
+    padding: 5px 10px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: #191724;
+    line-height: 34%;
+    margin-right: 30px;
+    height: 360px;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.textoSobreMititulo{
+    padding: 5px 10px;
+    margin-top: 10px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.textoSobreMi{
+    padding: 5px 10px;
+    color: white;
+    line-height: 40px;
+    
+    
+}
+.informacion {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+  }
+.formaImagenEmoticones{
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: 20%;
+    border-radius: 25%;
+    background-size: 100% auto;
+}
+body{
+    background-image: url(background-image4.gif);
+}
