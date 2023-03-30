@@ -1,3 +1,11 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
+body{
+    background-image: url(background-image.gif);
+    height: -200px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
 .forma{
     display: flex;
     justify-content: space-between;
@@ -108,6 +116,63 @@ a{
     border-radius: 25%;
     background-size: 100% auto;
 }
-body{
-    background-image: url(background-image4.gif);
+.Cuadroinformacion{
+    
+    border-radius: 20px;
+    border-style: solid;
+    background-color: #191724;
+    margin-right: 30px;
+    height:460px;
+    width: 950px;
+    margin-top: 15px;
+    margin-left: 915px;
+    bottom: 393px;
+    position: relative;
+}
+.fotoPerfil{
+    border-radius: 50%;
+    border-style: solid;
+    height: 200px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.textoTitulo{
+    color: white;
+    position: relative;
+    margin-left: 255px;
+    bottom: 230px;
+}
+
+.textoInformativo{
+
+    color: white;
+    position: relative;
+    margin-left: 300px;
+    bottom: 200px;
+    margin-top: -30px;
+    
+    
+}
+
+.iconTextoInformativo{
+    position: relative;
+    height: 50px;
+    margin-left: 1150px;
+    bottom: 750px;
+    line-height: 20px;
+}
+
+.IconPosicionTextoInformativo{
+    position: relative;
+    line-height: 30px;
+    border-style: solid;
+    background-color: white;
+    margin-top: -10px;
+    width: 10px;
+    height: 0px;
+}
+
+video{
+    margin-top: -900px;
+    position: relative;
 }
