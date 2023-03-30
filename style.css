@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
 body{
     background-image: url(background-image.gif);
-    height: -200px;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -121,9 +120,8 @@ a{
     border-radius: 20px;
     border-style: solid;
     background-color: #191724;
-    margin-right: 30px;
     height:460px;
-    width: 950px;
+ 
     margin-top: 15px;
     margin-left: 915px;
     bottom: 393px;
@@ -156,18 +154,18 @@ a{
 
 .iconTextoInformativo{
     position: relative;
-    height: 50px;
-    margin-left: 1150px;
-    bottom: 750px;
-    line-height: 20px;
+    height: 35px;
+    margin-left: 1160px;
+    bottom: 725px;
+    line-height: 30px;
 }
 
 .IconPosicionTextoInformativo{
     position: relative;
-    line-height: 30px;
+    line-height: 32px;
     border-style: solid;
     background-color: white;
-    margin-top: -10px;
+    margin-top: -30px;
     width: 10px;
     height: 0px;
 }
@@ -175,4 +173,14 @@ a{
 video{
     margin-top: -900px;
     position: relative;
+}
+.TextoSobreMiVida{
+    color: white;
+    height: 200px;
+    margin-top: -195px;
+    width: 900px;
+    margin-left: 20px;
+    position: relative;
+    line-height: 25px;
+
 }
